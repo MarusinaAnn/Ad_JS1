@@ -1,0 +1,31 @@
+{
+  "name": "defender-game",
+  "version": "1.0.0",
+  "description": "Browser based game",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src -d dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarusinaAnn/Ad_JS1.git"
+  },
+  "keywords": [
+    "game"
+  ],
+  "author": "nuta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarusinaAnn/Ad_JS1/issues"
+  },
+  "homepage": "https://github.com/MarusinaAnn/Ad_JS1#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.22.15",
+    "@babel/core": "^7.22.20",
+    "@babel/preset-env": "^7.22.20"
+  },
+  "dependencies": {
+    "core-js": "^3.32.2"
+  }
+}
